@@ -1,5 +1,4 @@
-const API_KEY = 'AIzaSyDhB8kg41eCx5GLd1lbjITMmKvoAenu7VI';
-const SEARCH_ENGINE_ID = '50783aeec4e1b49cc';
+
 
 async function findRecipes() {
     const ingredients = document.getElementById('ingredients').value;
