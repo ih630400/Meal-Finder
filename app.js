@@ -1,4 +1,5 @@
-
+const API_KEY = process.env.API_KEY;
+const SEARCH_ENGINE_ID = process.env.SEARCH_ENGINE_ID;
 
 async function findRecipes() {
     const ingredients = document.getElementById('ingredients').value;
