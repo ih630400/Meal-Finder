@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Meal Finder</h1>
+            <p>Find delicious recipes based on your ingredients!</p>
+        </header>
+        <main>
+            <div class="search-container">
+                <input type="text" id="ingredients" placeholder="Enter ingredients (comma-separated)">
+                <button onclick="findRecipes()" class="search-btn">Find Recipes</button>
+            </div>
+            <div id="results" class="results-container"></div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Meal Finder. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
